@@ -30,7 +30,7 @@ $config = [
  * - imageBaseUrl - Web path to the public images directory under webroot.
  * - cssBaseUrl - Web path to the public css directory under webroot.
  * - jsBaseUrl - Web path to the public js directory under webroot.
- * - paths - Configure paths for non class based resources. Supports the `plugins` and `templates`
+ * - paths - Configure paths for non class based resources. Supports the `Plugins` and `Templates`
  *   subkeys, which allow the definition of paths for plugins and view templates respectively.
  */
 	'App' => [
@@ -167,7 +167,7 @@ $config = [
  *  Debug  - Do not send the email, just return the result
  *
  * You can add custom transports (or override existing transports) by adding the
- * appropriate file to app/Network/Email.  Transports should be named 'YourTransport.php',
+ * appropriate file to App/Network/Email.  Transports should be named 'YourTransport.php',
  * where 'Your' is the name of the transport.
  *
  * ### Configuring delivery profiles
@@ -257,7 +257,7 @@ $config = [
  *
  * Contains an array of settings to use for session configuration. The defaults key is
  * used to define a default preset to use for sessions, any settings declared here will override
- * the settings of the default config.
+ * the settings of the default config.d
  *
  * ## Options
  *
@@ -285,7 +285,7 @@ $config = [
  * - 'database' - Uses CakePHP's database sessions.
  * - 'cache' - Use the Cache class to save sessions.
  *
- * To define a custom session handler, save it at /app/Network/Session/<name>.php.
+ * To define a custom session handler, save it at /App/Network/Session/<name>.php.
  * Make sure the class implements PHP's `SessionHandlerInterface` and se
  * Session.handler to <name>
  *
